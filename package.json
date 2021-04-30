@@ -1,0 +1,26 @@
+{
+  "name": "fore-universidad",
+  "version": "1.0.0",
+  "description": "> Este proyecto esta basado en nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forero-kun/backend-university.git"
+  },
+  "author": "Santiago Forero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forero-kun/backend-university/issues"
+  },
+  "homepage": "https://github.com/forero-kun/backend-university#readme",
+  "dependencies": {
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.0",
+    "pg": "^8.6.0"
+  }
+}
